@@ -1,3 +1,6 @@
+*{
+  background-color: #f28ab2;
+}
 .App {
   text-align: center;
 }
@@ -26,6 +29,106 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.header {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  font-size: 85px;
+}
+
+input[type=text] {
+  width: 370px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid royalblue;
+  background-color: whitesmoke;
+  outline: none;
+}
+
+input[type=text]:focus {
+  background-color: #02EC89;
+  border-radius: 15px;
+  color: black;
+  font-size: 20px;
+}
+
+.btn {
+  background-color: #000D8A;
+  border: none;
+  color: yellow;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #00B9F7;
+  color: white;
+  border-radius: 5px;
+}
+
+ol {
+  list-style-type: none;
+}
+
+.card{
+  background-color: #02EC89;
+}
+
+.listing{
+  border: 5px;
+  color: whitesmoke;
+  font-weight: bold;
+  background-color: #E21D60;
+  border-radius: 5px;
+  margin-top: 0.5px;
+  margin-bottom: 2px;
+  width: 1000px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.remove{
+  background-color: white;
+  margin-left: 750px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-bottom: 3px;
+  color: green;
+  font-weight: bold;
+}
+
+.deleteAll{
+  background-color: red;
+  border: none;
+  color: yellow;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 15px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.update{
+  background-color: red;
+  font-size: 20px;
+  color: white;
+  border: none;
+  margin-left: 5px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.update:hover {
+  background-color: green;
+  color: whitesmoke;
+  border-radius: 5px;
 }
 
 @keyframes App-logo-spin {
